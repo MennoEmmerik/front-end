@@ -36,10 +36,7 @@ img{
     color: #FFA6A6;
 }
 
-.nav-link:hover{
-    background-color: #FFA6A6;
-    color: #C8E7ED;
-}
+
 
 /* tussen ruimtes van de menu items */
 .navbar-nav > li{
