@@ -10,7 +10,7 @@
 
         <!-- inladen style -->
         <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
-        <link href="customStyle/style.css">
+        <link rel="stylesheet" href="customStyle/style.css">
 
         <!-- Dit wordt gebruikt voor de icons, roep mij als je een icon wilt gebruiken dan leg ik uit hoe het moet-->
         <script src="https://kit.fontawesome.com/15f422bf60.js" crossorigin="anonymous"></script>
@@ -19,7 +19,56 @@
     <body>
         <!-- container-fluid werk vanuit hier. Deze container zorgt ervoor dat er een max-width aanwezig is. -->
         <div class="container-fluid">
-
+            <nav class="navbar navbar-expand-sm navbar-light bg-light"> 
+                <div class="container"> 
+                    <a class="navbar-brand text-success" href="#"> 
+                      Bubble Candy
+                    </a> 
+                    <button class="navbar-toggler" type="button" 
+                            data-toggle="collapse"
+                            data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false" 
+                            aria-label="Toggle navigation"> 
+                        <span class="navbar-toggler-icon"></span> 
+                    </button> 
+          
+                    <div class="collapse navbar-collapse"></div> 
+          
+                    <div class="collapse navbar-collapse" 
+                         id="navbarSupportedContent"> 
+                        <ul class="navbar-nav mr-auto"> 
+                            <li class="nav-item active"> 
+                                <a class="nav-link" 
+                                   href="#"> 
+                                  Home  
+                                  <span class="sr-only"> 
+                                    (current) 
+                                  </span> 
+                              </a> 
+                            </li> 
+                            <li class="nav-item"> 
+                                <a class="nav-link" 
+                                   href="#"> 
+                                   Producten
+                                </a> 
+                            </li> 
+                            <li class="nav-item"> 
+                                <a class="nav-link"
+                                   href="#"> 
+                                  Nieuws 
+                                </a> 
+                            </li> 
+                            <li class="nav-item"> 
+                                <a class="nav-link"
+                                   href="#"> 
+                                  Over ons 
+                                </a> 
+                            </li> 
+                        </ul> 
+                    </div> <!--menu items-->
+                </div> <!--menu balk-->
+            </nav> <!--einde menu-->
         </div><!--Container-fluid-->
     </body>
 </html>
