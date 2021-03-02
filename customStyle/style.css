@@ -18,3 +18,29 @@ GEEN ENKELE MARGIN TOEVOEGEN AAN ELEMENTEN DIT KOMT OMDAT BOOTSTRAP HIER GEBRUIK
     width: 10%;
 }
 /* menu */
+
+/* Achtergrond kleur van alle pagina's */
+body{
+    background-color: #C8E7ED;
+}
+
+/* Footer op alle pagina's */
+footer{
+    background-color: #FFFFC2;
+    color: #FFA6A6;
+    position: fixed;
+    bottom: 0px;
+    right: 0.2px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Blok voor de nieuws berichten */
+.nieuws-berichten{
+    height: 200px;
+    width: 160px;
+    position: absolute;
+    top: 50%;
+    background-color: #FFFFC2;
+    border: 1px solid black;
+}
