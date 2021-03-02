@@ -5,3 +5,16 @@ GEEN ENKELE MARGIN TOEVOEGEN AAN ELEMENTEN DIT KOMT OMDAT BOOTSTRAP HIER GEBRUIK
 */
 
 /* ruimte voor menu bar  */
+.navbar-custom{
+    background: #FFFFC2;
+}
+
+.navbar-brand {
+    display: flex ;   
+}
+
+.logo{
+    height: 10%;
+    width: 10%;
+}
+/* menu */
