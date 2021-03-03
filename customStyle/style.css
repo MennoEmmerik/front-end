@@ -72,11 +72,23 @@ footer{
 }
 
 /* Blok voor de nieuws berichten */
-.nieuws-berichten{
-    height: 200px;
-    width: 160px;
-    position: absolute;
-    top: 50%;
+.nieuws-bericht{
+    height: 490px;
+    width: 340px;
+    float: left;
+    margin-left: 30px;
     background-color: #FFFFC2;
     border: 1px solid black;
+    border-radius: 10%;
+    text-align: center;
+}
+.nieuws{
+    position: absolute;
+    top: 30%;
+}
+.bericht{
+    position: absolute;
+    top: 30%;
+    width: 300px;
+    text-align: center;
 }
