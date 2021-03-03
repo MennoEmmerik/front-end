@@ -81,6 +81,8 @@ footer{
     border: 1px solid black;
     border-radius: 10%;
     text-align: center;
+    color: #FFA5A5;
+    
 }
 .nieuws{
     position: absolute;
@@ -88,10 +90,11 @@ footer{
 }
 .bericht{
     position: relative;
-    height: 46%;
+    height: 40%;
     width: 100%;
     text-align: center;
     overflow-y: scroll;
+    font-size: 17px;
 }
 
 /* width */
