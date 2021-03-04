@@ -9,27 +9,19 @@ body{
 }
 
 /* ruimte voor menu bar  */
-.navbar-custom{
-    background: #FFFFC2;
+.navbar-brand{
+    padding: 0px;
 }
 
 img{
-    height: 30%;
-    width: 30%;
+    height: 15%;
+    width: 15%;
 }
 
 .nav-item{
     border: 1px solid black;
     background-color: #FFFFC2;
     border-radius: 10px;
-}
-
-.nav-item:nth-child(odd){
-    margin-right: 30px;
-}
-
-.nav-item:nth-child(even){
-    margin-right: 30px;
 }
 
 .nav-item > a{
@@ -41,11 +33,10 @@ img{
     color: #C8E7ED;
 }
 
-/* tussen ruimtes van de menu items */
-.navbar-nav > li{
-    padding-left:30px;
-    padding-right:30px;
-  }
+/* hamburger menu icon stylen */
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
 
 /* winkel kar */
 .fa-shopping-cart{
@@ -53,9 +44,7 @@ img{
     color: black;
 }
 
-/* actief menu item wanneer je op de pagina bevindt */
-
-/* menu */
+/*einde menu */
 
 /* Achtergrond kleur van alle pagina's */
 body{
