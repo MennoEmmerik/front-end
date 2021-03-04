@@ -119,6 +119,19 @@ footer{
 }
 
 /*heading opgemaakt*/
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6, p{
     color: #FFA5A5;
+}
+/*overons sections opmaken*/
+.over-ons{
+    float: left;
+}
+.over-ons-tekst{
+    width: 70%;
+}
+.over-ons-tekst > p{
+    margin: 0px;
+}
+.center{
+    text-align: center;
 }
