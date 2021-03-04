@@ -75,10 +75,14 @@ footer{
     display: none;
     
 }
+
+/* Section (Nieuwspagina) */
 .nieuws{
     position: absolute;
     top: 30%;
 }
+
+/* alle p-elementen (Nieuwspagina) */
 .bericht{
     position: relative;
     height: 40%;
