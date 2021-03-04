@@ -7,6 +7,7 @@
 
         <!-- inladen scripts -->
         <script src="../Bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
         <!-- inladen style -->
         <link href="../Bootstrap/css/bootstrap.min.css">
@@ -17,6 +18,53 @@
     </head>
 
     <body>
+        <!-- begin menu -->
+        <nav class="navbar navbar-expand-md navbar-transparent justify-content-center">
+            <a class="navbar-brand" href="#">
+                <img src="../pictures/logo/bubblecandy_logo.png" height="200px" class="img-responsive">
+            </a>
+            <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarsExample05">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item" class="menu-item"> 
+                    <a class="nav-link" 
+                       href="../sites/producten.html"> 
+                       Producten
+                    </a> 
+                </li> 
+                <li class="nav-item" class="menu-item"> 
+                    <a class="nav-link"
+                       href="../sites/nieuws.html"> 
+                      Nieuws 
+                    </a> 
+                </li> 
+                <li class="nav-item" class="menu-item"> 
+                    <a class="nav-link"
+                       href="../sites/overOns.html"> 
+                      Over ons 
+                    </a> 
+                </li> 
+                <li class="nav-item" class="menu-item"> 
+                    <a class="nav-link"
+                       href="../sites/overOns.html"> 
+                      Contact
+                    </a> 
+                </li> 
+
+                <!-- winkelwagen toevoegen -->
+                <li class="nav-default">
+                    <a class="nav-link pr-2"><i class="fas fa-shopping-cart fa-3x"></i></i></a>
+                </li>
+              </ul>
+            </div><!--einde menu items-->
+          </nav><!--einde menu balk-->
+
          <h2 class="center">
             OVER ONS
         </h2>
