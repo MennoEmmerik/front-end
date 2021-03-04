@@ -66,6 +66,7 @@ footer{
     width: 340px;
     float: left;
     margin-left: 30px;
+    margin-bottom: 30px;
     background-color: #FFFFC2;
     border: 1px solid black;
     border-radius: 10%;
@@ -87,26 +88,47 @@ footer{
     font-size: 17px;
 }
 
-/* width */
+/* width (NIEUWSPAGINA)*/
 .bericht::-webkit-scrollbar {
     width: 20px;
 }
   
-  /* Track */
+  /* Track (NIEUWSPAGINA)*/
 .bericht::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px grey; 
     border-radius: 10px;
 }
    
-  /* Handle */
+  /* Handle (NIEUWSPAGINA)*/
 .bericht::-webkit-scrollbar-thumb {
     background:#C8E7ED; 
     border-radius: 10px;
 }
   
-  /* Handle on hover */
+  /* Handle on hover (NIEUWSPAGINA)*/
 .bericht::-webkit-scrollbar-thumb:hover {
     background: #FFA5A5; 
+}
+/* width (ALLE PAGINA'S)*/
+body::-webkit-scrollbar {
+    width: 20px;
+}
+  
+  /* Track (ALLE PAGINA'S)*/
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+   
+  /* Handle (ALLE PAGINA'S)*/
+body::-webkit-scrollbar-thumb {
+    background:#FFA5A5; 
+    border-radius: 10px;
+}
+  
+  /* Handle on hover (ALLE PAGINA'S)*/
+body::-webkit-scrollbar-thumb:hover {
+    background: #FFFFC2;
 }
 
 .drop-nieuws{

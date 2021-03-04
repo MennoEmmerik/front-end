@@ -11,9 +11,12 @@ $(document).ready(function () {
 
 // Fade in en fade out van de nieuws blokken bij het opladen van de pagina
 $(document).ready(function(){
-  // $("#intro").fadeIn(2000).next(4000).fadeOut(2000);
   $("#div1").fadeIn(2000);
   $("#div2").fadeIn(3000);
   $("#div3").fadeIn(4000);
   $("#div4").fadeIn(5000);
+  $("#div5").fadeIn(6000);
+  $("#div6").fadeIn(6000);
+  $("#div7").fadeIn(6000);
+  $("#div8").fadeIn(6000);
 });
