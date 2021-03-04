@@ -83,14 +83,48 @@ footer{
     border: 1px solid black;
     border-radius: 10%;
     text-align: center;
+    color: #FFA5A5;
+    
 }
 .nieuws{
     position: absolute;
     top: 30%;
 }
 .bericht{
-    position: absolute;
-    top: 30%;
-    width: 300px;
+    position: relative;
+    height: 40%;
+    width: 100%;
     text-align: center;
+    overflow-y: scroll;
+    font-size: 17px;
+}
+
+/* width */
+.bericht::-webkit-scrollbar {
+    width: 20px;
+}
+  
+  /* Track */
+.bericht::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+   
+  /* Handle */
+.bericht::-webkit-scrollbar-thumb {
+    background:#C8E7ED; 
+    border-radius: 10px;
+}
+  
+  /* Handle on hover */
+.bericht::-webkit-scrollbar-thumb:hover {
+    background: #FFA5A5; 
+}
+
+.drop-nieuws{
+    position: relative;
+    background-image: url(../pictures/producten/drop.jpg);
+    background-size: contain;
+    height: 30%;
+    width: 90%;
 }
