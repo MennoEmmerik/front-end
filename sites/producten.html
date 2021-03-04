@@ -6,17 +6,64 @@
         </title>
 
         <!-- inladen scripts -->
-        <script src="Bootstrap/js/bootstrap.min.js"></script>
+        <script src="../Bootstrap/js/bootstrap.min.js"></script>
 
         <!-- inladen style -->
-        <link href="Bootstrap/css/bootstrap.min.css">
-        <link href="../customStyle/style.css">
+        <link href="../Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../customStyle/style.css" rel="stylesheet">
 
        <!-- Dit wordt gebruikt voor de icons, roep mij als je een icon wilt gebruiken dan leg ik uit hoe het moet-->
         <script src="https://kit.fontawesome.com/15f422bf60.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
-      
+        <!-- begin menu -->
+        <nav class="navbar navbar-expand-md navbar-transparent">
+            <a class="navbar-brand" href="#">
+                <img src="../pictures/logo/bubblecandy_logo_transparent.png" height="200px" class="img-responsive">
+            </a>
+            <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample05">
+              <ul class="navbar-nav justify-content-between w-100">
+                <li class="nav-item active">
+                  <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item" class="menu-item"> 
+                    <a class="nav-link" 
+                       href="/sites/producten.html"> 
+                       Producten
+                    </a> 
+                </li> 
+                <li class="nav-item" class="menu-item"> 
+                    <a class="nav-link"
+                       href="/sites/nieuws.html"> 
+                      Nieuws 
+                    </a> 
+                </li> 
+                <li class="nav-item" class="menu-item"> 
+                    <a class="nav-link"
+                       href="/sites/overOns.html"> 
+                      Over ons 
+                    </a> 
+                </li> 
+                <li class="nav-item" class="menu-item"> 
+                    <a class="nav-link"
+                       href="/sites/overOns.html"> 
+                      Contact
+                    </a> 
+                </li> 
+
+                <!-- winkelwagen toevoegen -->
+                <li class="nav-default">
+                    <a class="nav-default pr-2"><i class="fas fa-shopping-cart fa-3x"></i></a>
+                </li>
+              </ul>
+            </div><!--einde menu items-->
+          </nav><!--einde menu balk-->
+
+          
     </body>
 </html>
