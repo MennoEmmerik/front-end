@@ -6,10 +6,11 @@
         </title>
 
         <!-- inladen scripts -->
-        <script src="Bootstrap/js/bootstrap.min.js"></script>
+        <script src="../Bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
         <!-- inladen style -->
-        <link href="Bootstrap/css/bootstrap.min.css">
+        <link href="../Bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="../customStyle/style.css" rel="stylesheet">
 
         <!-- Dit wordt gebruikt voor de icons, roep mij als je een icon wilt gebruiken dan leg ik uit hoe het moet-->
@@ -17,10 +18,57 @@
     </head>
 
     <body>
+        <!-- begin menu -->
+        <nav class="navbar navbar-expand-md navbar-transparent">
+            <a class="navbar-brand" href="#">
+                <img src="../pictures/logo/bubblecandy_logo_transparent.png" height="200px" class="img-responsive">
+            </a>
+            <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample05">
+              <ul class="navbar-nav justify-content-between w-100">
+                <li class="nav-item active">
+                  <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item" class="menu-item"> 
+                    <a class="nav-link" 
+                       href="/sites/producten.html"> 
+                       Producten
+                    </a> 
+                </li> 
+                <li class="nav-item" class="menu-item"> 
+                    <a class="nav-link"
+                       href="/sites/nieuws.html"> 
+                      Nieuws 
+                    </a> 
+                </li> 
+                <li class="nav-item" class="menu-item"> 
+                    <a class="nav-link"
+                       href="/sites/overOns.html"> 
+                      Over ons 
+                    </a> 
+                </li> 
+                <li class="nav-item" class="menu-item"> 
+                    <a class="nav-link"
+                       href="/sites/overOns.html"> 
+                      Contact
+                    </a> 
+                </li> 
+
+                <!-- winkelwagen toevoegen -->
+                <li class="nav-default">
+                    <a class="nav-default pr-2"><i class="fas fa-shopping-cart fa-3x"></i></a>
+                </li>
+              </ul>
+            </div><!--einde menu items-->
+          </nav><!--einde menu balk-->
+
+         <h2 class="center">
+            OVER ONS
+        </h2>
         <section class="over-ons over-ons-tekst">
-            <h2>
-                OVER ONS
-            </h2>
             <p>
                 Sinds 8 maart 1982 zijn wij de trotse eigenaars van Bubble Candy, een snoepwinkel in ‘s-Hertogenbosch. In onze snoepwinkel kunt U allerlei soorten snoep kopen. Bv. ± 75 soorten drop van zoet, salmiak tot zout. Allerlei soorten zuurtjes, chocolaatjes, ouderwetse snoep zoals bv. jodevet, trekdrop, snoeppapier, Quality Street, laurier, noga, kaneel. Suikervrije dropjes en snoepjes. Voor de kinderen een speciale snoephoek met tientallen verschillende soorten snoep. En natuurlijk onze bonbons van Drageé, handgemaakte super bonbons uit België. Teveel om op te noemen dus.
                 <br>
@@ -32,7 +80,7 @@
             </p>
         </section>
         <section class="over-ons over-ons-afbeelding">
-            <img src="../pictures/over-ons-afbeelding.png">
+            <img src="../pictures/over-ons-afbeelding.png" style="width: 90%; height: auto;">
         </section>
     </body>
 </html>

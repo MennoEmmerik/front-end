@@ -4,18 +4,9 @@ GEEN ENKELE MARGIN TOEVOEGEN AAN ELEMENTEN DIT KOMT OMDAT BOOTSTRAP HIER GEBRUIK
 
 */
 
-body{
-    background-color: #C8E7ED;
-}
-
 /* ruimte voor menu bar  */
 .navbar-brand{
     padding: 0px;
-}
-
-img{
-    height: 15%;
-    width: 15%;
 }
 
 .nav-item{
@@ -24,18 +15,25 @@ img{
     border-radius: 10px;
 }
 
+
 .nav-item > a{
     color: #FFA6A6;
 }
 
-.nav-link:hover{
+.nav-item:hover{
     background-color: #FFA6A6;
     color: #C8E7ED;
 }
 
+a:hover{
+    color: #C8E7ED;
+}
+
+
+
 /* hamburger menu icon stylen */
 .custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,166,166, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 /* winkel kar */
@@ -120,6 +118,19 @@ footer{
 }
 
 /*heading opgemaakt*/
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6, p{
     color: #FFA5A5;
+}
+/*overons sections opmaken*/
+.over-ons{
+    float: left;
+}
+.over-ons-tekst{
+    width: 70%;
+}
+.over-ons-tekst > p{
+    margin: 0px;
+}
+.center{
+    text-align: center;
 }
