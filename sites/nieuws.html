@@ -7,6 +7,7 @@
 
         <!-- inladen scripts -->
         <script src="Bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
         <!-- inladen style -->
         <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
@@ -17,7 +18,63 @@
     </head>
 
     <body>
+        <!-- begin menu -->
+        <nav class="navbar navbar-expand-lg navbar-transparent justify-content-center" role="navigation"> 
+            <a class="navbar-brand" href="/index.html"> 
+             <img src="../pictures/logo/bubblecandy_logo_transparent.png" class="img-responsive">
+            </a> 
+            <button class="navbar-toggler" type="button" 
+                    data-toggle="collapse" 
+                    data-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button> 
+  
+            <div class="collapse navbar-collapse justify-content-between align-items-center w-100" id="navbar"> 
+                <ul class="nav navbar-nav"> 
+                    <li class="nav-item active" class="menu-item"> 
+                        <a class="nav-link" 
+                           href="/index.html"> 
+                          Home  
+                          <span class="sr-only"> 
+                            (current) 
+                          </span> 
+                      </a> 
+                    </li> 
+                    <li class="nav-item" class="menu-item"> 
+                        <a class="nav-link" 
+                           href="/sites/producten.html"> 
+                           Producten
+                        </a> 
+                    </li> 
+                    <li class="nav-item" class="menu-item"> 
+                        <a class="nav-link"
+                           href="/sites/nieuws.html"> 
+                          Nieuws 
+                        </a> 
+                    </li> 
+                    <li class="nav-item" class="menu-item"> 
+                        <a class="nav-link"
+                           href="/sites/overOns.html"> 
+                          Over ons 
+                        </a> 
+                    </li> 
+                </ul> 
+
+                <!-- winkelwagen toevoegen -->
+                <ul class="navbar-nav flex-row mr-lg-0">
+                    <li class="nav-default">
+                         <a class="nav-link pr-2"><i class="fas fa-shopping-cart fa-3x"></i></i></a>
+                    </li>
+                </ul>
+            </div> <!--menu items-->
+    </nav> <!--einde menu-->
+
+        <!-- 4 Blokken voor de nieuws berichten -->
         <section class="nieuws">
+            <!-- Blok 1 -->
             <div class="nieuws-bericht">
                 <h3>Dit is de titel van het nieuwsbericht</h3>
                 <img src="../pictures/producten/drop.jpg" class="drop-nieuws">
@@ -37,6 +94,7 @@
                     Morbi facilisis ullamcorper nibh, nec commodo ipsum commodo id. Curabitur tristique, elit eu gravida pulvinar, urna turpis iaculis eros, vel efficitur nunc eros tempor mi.
                 </p>
             </div>
+            <!-- Blok 2 -->
             <div class="nieuws-bericht">
                 <h3>Dit is de titel van het nieuwsbericht</h3>
                 <img src="../pictures/producten/drop.jpg" class="drop-nieuws">
@@ -56,6 +114,7 @@
                     Morbi facilisis ullamcorper nibh, nec commodo ipsum commodo id. Curabitur tristique, elit eu gravida pulvinar, urna turpis iaculis eros, vel efficitur nunc eros tempor mi.
                 </p>
             </div>
+            <!-- Blok 3 -->
             <div class="nieuws-bericht">
                 <h3>Dit is de titel van het nieuwsbericht</h3>
                 <img src="../pictures/producten/drop.jpg" class="drop-nieuws">
@@ -75,6 +134,7 @@
                     Morbi facilisis ullamcorper nibh, nec commodo ipsum commodo id. Curabitur tristique, elit eu gravida pulvinar, urna turpis iaculis eros, vel efficitur nunc eros tempor mi.
                 </p>
             </div>
+            <!-- Blok 4 -->
             <div class="nieuws-bericht">
                 <h3>Dit is de titel van het nieuwsbericht</h3>
                 <img src="../pictures/producten/drop.jpg" class="drop-nieuws">
@@ -95,6 +155,8 @@
                 </p>
             </div>
         </section>
+
+        <!--De footer met copyright-->
         <footer class="footer">
             <div class="col-12 col-md-12 col-lg-12 col-xl-12">
                 Bubble Candy &copy; 2021, Alle rechten voorbehouden. Privacybeleid | Discaimer
