@@ -4,10 +4,6 @@ GEEN ENKELE MARGIN TOEVOEGEN AAN ELEMENTEN DIT KOMT OMDAT BOOTSTRAP HIER GEBRUIK
 
 */
 
-body{
-    background-color: #C8E7ED;
-}
-
 /* ruimte voor menu bar  */
 .navbar-brand{
     padding: 0px;
