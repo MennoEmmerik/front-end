@@ -1,15 +1,6 @@
 //Eigen JS geschreven
 
-//Code voor een actief menu
-
-$(document).ready(function () {
-    $(".nav li").removeClass("active");//this will remove the active class from  
-                                       //previously active menu item 
-                                       
-    $('#home').addClass('active');
-  });
-
-// Fade in en fade out van de nieuws blokken bij het opladen van de Nieuwspagina
+// Fade in en fade out van de nieuws blokken bij het inladen van de Nieuwspagina
 $(document).ready(function(){
   $("#laatsteNieuws").css({"font-size": "80px", "position":"absolute", "top":"50%", "left":"5%"}).fadeOut(5000,
     function(){
