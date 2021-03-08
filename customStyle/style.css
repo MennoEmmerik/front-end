@@ -4,6 +4,12 @@ GEEN ENKELE MARGIN TOEVOEGEN AAN ELEMENTEN DIT KOMT OMDAT BOOTSTRAP HIER GEBRUIK
 
 */
 
+/*------------------------- STYLING FOR AL PAGES ----------------------------------*/
+
+body{
+    background-color: #C8E7ED;
+}
+
 /* ruimte voor menu bar  */
 .navbar-brand{
     padding: 0px;
@@ -14,7 +20,6 @@ GEEN ENKELE MARGIN TOEVOEGEN AAN ELEMENTEN DIT KOMT OMDAT BOOTSTRAP HIER GEBRUIK
     background-color: #FFFFC2;
     border-radius: 10px;
 }
-
 
 .nav-item > a{
     color: #FFA6A6;
@@ -29,8 +34,6 @@ a:hover{
     color: #C8E7ED;
 }
 
-
-
 /* hamburger menu icon stylen */
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,166,166, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -44,12 +47,27 @@ a:hover{
 
 /*einde menu */
 
-/* Achtergrond kleur van alle pagina's */
-body{
-    background-color: #C8E7ED;
+/* Custom scroll balk */
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+   
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background:#FFA5A5; 
+    border-radius: 10px;
+}
+  
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: #FFFFC2;
 }
 
-/* Footer op alle pagina's */
+/* Custom scroll balk */
+
+/* Footer */
 footer{
     background-color: #FFFFC2;
     color: #FFA6A6;
@@ -59,6 +77,25 @@ footer{
     text-align: center;
     width: 100%;
 }
+
+
+/*------------------------- STYLING FOR AL PAGES ----------------------------------*/
+
+
+/*------------------------------------ INDEX PAGE  ----------------------------------*/
+
+#banner{
+
+
+}
+
+
+
+
+/*------------------------------------ INDEX PAGE  ----------------------------------*/
+
+
+/*------------------------------------ NIEUWS PAGE  ----------------------------------*/
 
 /* Blok voor de nieuws berichten */
 .nieuws-bericht{
@@ -117,23 +154,6 @@ footer{
 body::-webkit-scrollbar {
     width: 20px;
 }
-  
-  /* Track (ALLE PAGINA'S)*/
-body::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey; 
-    border-radius: 10px;
-}
-   
-  /* Handle (ALLE PAGINA'S)*/
-body::-webkit-scrollbar-thumb {
-    background:#FFA5A5; 
-    border-radius: 10px;
-}
-  
-  /* Handle on hover (ALLE PAGINA'S)*/
-body::-webkit-scrollbar-thumb:hover {
-    background: #FFFFC2;
-}
 
 .drop-nieuws{
     position: relative;
@@ -142,6 +162,12 @@ body::-webkit-scrollbar-thumb:hover {
     height: 30%;
     width: 90%;
 }
+
+/*------------------------------------ NIEUWS PAGE  ----------------------------------*/
+
+/*------------------------------------ OVER ONS PAGE  ----------------------------------*/
+
+
 
 /*heading opgemaakt*/
 h1, h2, h3, h4, h5, h6, p{
@@ -160,3 +186,5 @@ h1, h2, h3, h4, h5, h6, p{
 .center{
     text-align: center;
 }
+
+/*------------------------------------ OVER ONS PAGE  ----------------------------------*/
