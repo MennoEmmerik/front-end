@@ -84,12 +84,13 @@ footer{
 
 /*------------------------------------ INDEX PAGE  ----------------------------------*/
 
-#banner{
-    position: relative;
-    height: 100%;
-    width: 100%;
+.banner{
+    background-image: url("../pictures/banners/snoepBanner_index.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #FFA6A6; /*laat zien als de foto er niet is*/
+    min-height: 30vw;
 }
-
 
 /*------------------------------------ INDEX PAGE  ----------------------------------*/
 
