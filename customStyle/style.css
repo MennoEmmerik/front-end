@@ -188,3 +188,31 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 /*------------------------------------ OVER ONS PAGE  ----------------------------------*/
+
+/*------------------------------------ CONTACT PAGE  ----------------------------------*/
+.table-contact{
+    background-color: #FFFFC2;
+    margin: auto;
+}
+.form-contact > tbody, td, tfoot, th, thead, tr{
+    padding: 30px !important;
+}
+.label-contact {
+    color: #FFA5A5;
+}
+.checkbox{
+    color: #FFA5A5;
+    padding-left: 15px;
+}
+.versturen{
+    width: 150px;
+    height: 50px;
+    background-color: #C8E7ED;
+    color:#FFA5A5;
+    border: 1px solid black;
+}
+
+
+
+
+/*------------------------------------ CONTACT PAGE  ----------------------------------*/
