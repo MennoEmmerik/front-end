@@ -85,14 +85,10 @@ footer{
 /*------------------------------------ INDEX PAGE  ----------------------------------*/
 
 #banner{
-
-    background-image: url("");
-    background-size: cover;
-    background-repeat: no-repeat;
-
+    position: relative;
+    height: 100%;
+    width: 100%;
 }
-
-
 
 
 /*------------------------------------ INDEX PAGE  ----------------------------------*/
