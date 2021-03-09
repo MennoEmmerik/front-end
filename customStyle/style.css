@@ -94,6 +94,26 @@ footer{
 
 /*------------------------------------ INDEX PAGE  ----------------------------------*/
 
+/*------------------------------------ PRODUCTEN PAGE  ----------------------------------*/
+
+.product{
+    height: 490px;
+    width: 340px;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background-color: #FFFFC2;
+    border: 1px solid black;
+    border-radius: 10%;
+    text-align: center;
+    color: #FFA5A5;
+}
+
+
+
+/*------------------------------------ PRODUCTEN PAGE  ----------------------------------*/
+
+
 
 /*------------------------------------ NIEUWS PAGE  ----------------------------------*/
 
@@ -157,7 +177,7 @@ body::-webkit-scrollbar {
 
 .drop-nieuws{
     position: relative;
-    background-image: url(../pictures/producten/drop.jpg);
+    background-image: url("../pictures/producten/drop.jpg");
     background-size: contain;
     height: 30%;
     width: 90%;
