@@ -98,19 +98,17 @@ footer{
 
 .product{
     height: 490px;
-    width: 340px;
-    float: left;
-    margin-left: 30px;
+    width: 280px;
+    float: right;
+    margin-left: 20px;
     margin-bottom: 30px;
+    margin-right: 20px;
     background-color: #FFFFC2;
     border: 1px solid black;
     border-radius: 10%;
     text-align: center;
     color: #FFA5A5;
 }
-
-
-
 /*------------------------------------ PRODUCTEN PAGE  ----------------------------------*/
 
 
