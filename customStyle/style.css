@@ -92,6 +92,15 @@ footer{
     min-height: 30vw;
 }
 
+#label{
+    background-color: #FFFFC2;
+    border-radius: 10px;
+    left: 3%;
+    width: 13%;
+    margin-top: 1.5%;
+    position: relative;
+}
+
 /*------------------------------------ INDEX PAGE  ----------------------------------*/
 
 /*------------------------------------ PRODUCTEN PAGE  ----------------------------------*/
