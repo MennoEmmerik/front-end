@@ -92,13 +92,22 @@ footer{
     min-height: 30vw;
 }
 
+#label{
+    background-color: #FFFFC2;
+    border-radius: 10px;
+    left: 3%;
+    width: 13%;
+    margin-top: 1.5%;
+    position: relative;
+}
+
 /*------------------------------------ INDEX PAGE  ----------------------------------*/
 
 /*------------------------------------ PRODUCTEN PAGE  ----------------------------------*/
 
 .product{
-    height: 490px;
-    width: 340px;
+    height: 390px;
+    width: 290px;
     float: left;
     margin-left: 30px;
     margin-bottom: 30px;
