@@ -71,125 +71,138 @@
 
           <h1 id="titel_producten">Producten</h1>
           
-          <section class="section_product result">
-            <!-- Blok 1 -->
-            <div class="product zoet">
-                <h3>Naam van product</h3>
-                <img src="../pictures/producten/haribo_hartjes_snoep_3.jpg" class="drop-nieuws">
-                <h3>Merk van product</h3>
-            <p class="product_oms">
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product.
-            </p>
-            </div>
-            <!-- Blok 2 -->
-            <div class="product zout">
-                <h3>Naam van product</h3>
-                <img src="../pictures/producten/matthijs-salmiak-drop-zoute-repen.jpg" class="drop-nieuws">
-                <h3>Merk van product</h3>
-            <p class="product_oms">
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product.
-            </p>
-            </div>
-            <!-- Blok 3 -->
-            <div class="product nieuw">
-                <h3>Naam van product</h3>
-                <img src="../pictures/producten/drop.jpg" class="drop-nieuws">
-                <h3>Merk van product</h3>
-            <p class="product_oms">
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product.
-            </p>
-            </div>
-            <!-- Blok 4 -->
-            <div class="product zuur">
-              <h3>Naam van product</h3>
-              <img src="../pictures/producten/Zuremattjes.jpg" class="drop-nieuws">
-              <h3>Merk van product</h3>
-            <p class="product_oms">
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product.
-            </p>
-        </section>
-        <section class="section_product_2 result">
-          <!-- Blok 5 -->
-          <div class="product zout">
-              <h3>Naam van product</h3>
-              <img src="../pictures/producten/Haribo-Zoute-rijen-200gr.png" class="drop-nieuws">
-              <h3>Merk van product</h3>
-            <p class="product_oms">
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product.
-            </p>
-          </div>
-          <!-- Blok 6 -->
-          <div class="product zuur">
-              <h3>Naam van product</h3>
-              <img src="../pictures/producten/ZureTongen.jpg" class="drop-nieuws">
-              <h3>Merk van product</h3>
-            <p class="product_oms">
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product.
-            </p>
-          </div>
-          <!-- Blok 7 -->
-          <div class="product zoet">
-              <h3>Naam van product</h3>
-              <img src="../pictures/producten/haribo-schuimblokken-bestellen.png" class="drop-nieuws">
-              <h3>Merk van product</h3>
-            <p class="product_oms">
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product.
-            </p>
-          </div>
-          <!-- Blok 8 -->
-          <div class="product nieuw">
-            <h3>Naam van product</h3>
-            <img src="../pictures/producten/drop.jpg" class="drop-nieuws">
-            <h3>Merk van product</h3>
-            <p class="product_oms">
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
-                Hier komt een omschrijving van het product. Hier komt een omschrijving van het product.
-            </p>
-        </section>
+       <div class="container-fluid">
+         <div class="container">
+           <div class="row">
+            <div class="filter col-6 col-xs-6 col-md-3 col-lg-3 col-xl-3">
+              <div class="affix">
+                <h1 id="titel_filter">Filter</h1>
+                <div class="checkbox_filter">
+                  <label><input type="checkbox" rel="zoet" onchange="change()"/>Zoet</label>
+                </div>
+                <div class="checkbox_filter">
+                  <label><input type="checkbox" rel="zout" onchange="change()"/>Zout</label>
+                </div>
+                <div class="checkbox_filter">
+                  <label><input type="checkbox" rel="zuur" onchange="change()"/>Zuur</label>
+                </div>
+                <div class="checkbox_filter">
+                    <label><input type="checkbox" rel="nieuw" onchange="change()"/>Nieuw</label>
+                </div>
+              </div>
+              
+             <div class="col-6 col-xs-6 col-md-12 col-lg-12 col-xl-12">
+                <section class="section_product result">
+                  <!-- Blok 1 -->
+                  <div class="product zoet">
+                      <h3>Naam van product</h3>
+                      <img src="../pictures/producten/haribo_hartjes_snoep_3.jpg" class="drop-nieuws">
+                      <h3>Merk van product</h3>
+                  <p class="product_oms">
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product.
+                  </p>
+                  </div>
+                  <!-- Blok 2 -->
+                  <div class="product zout">
+                      <h3>Naam van product</h3>
+                      <img src="../pictures/producten/matthijs-salmiak-drop-zoute-repen.jpg" class="drop-nieuws">
+                      <h3>Merk van product</h3>
+                  <p class="product_oms">
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product.
+                  </p>
+                  </div>
+                  <!-- Blok 3 -->
+                  <div class="product nieuw">
+                      <h3>Naam van product</h3>
+                      <img src="../pictures/producten/drop.jpg" class="drop-nieuws">
+                      <h3>Merk van product</h3>
+                  <p class="product_oms">
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product.
+                  </p>
+                  </div>
+                  <!-- Blok 4 -->
+                  <div class="product zuur">
+                    <h3>Naam van product</h3>
+                    <img src="../pictures/producten/Zuremattjes.jpg" class="drop-nieuws">
+                    <h3>Merk van product</h3>
+                  <p class="product_oms">
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product.
+                  </p>
+                </section>
+                <section class="section_product_2 result">
+                <!-- Blok 5 -->
+                <div class="product zout">
+                    <h3>Naam van product</h3>
+                    <img src="../pictures/producten/Haribo-Zoute-rijen-200gr.png" class="drop-nieuws">
+                    <h3>Merk van product</h3>
+                  <p class="product_oms">
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product.
+                  </p>
+                </div>
+                <!-- Blok 6 -->
+                <div class="product zuur">
+                    <h3>Naam van product</h3>
+                    <img src="../pictures/producten/ZureTongen.jpg" class="drop-nieuws">
+                    <h3>Merk van product</h3>
+                  <p class="product_oms">
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product.
+                  </p>
+                </div>
+                <!-- Blok 7 -->
+                <div class="product zoet">
+                    <h3>Naam van product</h3>
+                    <img src="../pictures/producten/haribo-schuimblokken-bestellen.png" class="drop-nieuws">
+                    <h3>Merk van product</h3>
+                  <p class="product_oms">
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
+                      Hier komt een omschrijving van het product. Hier komt een omschrijving van het product.
+                  </p>
+                </div>
+                <!-- Blok 8 -->
+                  <div class="product nieuw">
+                    <h3>Naam van product</h3>
+                    <img src="../pictures/producten/drop.jpg" class="drop-nieuws">
+                    <h3>Merk van product</h3>
+                    <p class="product_oms">
+                        Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
+                        Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
+                        Hier komt een omschrijving van het product. Hier komt een omschrijving van het product. <br>
+                        Hier komt een omschrijving van het product. Hier komt een omschrijving van het product.
+                    </p>
+                  </section>
+                </section>
+             </div><!--col-->
+           </div><!--row-->
+         </div><!--conatiner-->
+       </div> <!--container-fluid-->  
 
-      <div class="filter">
-        <h1 id="titel_filter">Filter</h1>
-        <div class="checkbox_filter">
-          <label><input type="checkbox" rel="zoet" onchange="change()"/>Zoet</label>
-        </div>
-        <div class="checkbox_filter">
-          <label><input type="checkbox" rel="zout" onchange="change()"/>Zout</label>
-        </div>
-        <div class="checkbox_filter">
-          <label><input type="checkbox" rel="zuur" onchange="change()"/>Zuur</label>
-        </div>
-        <div class="checkbox_filter">
-            <label><input type="checkbox" rel="nieuw" onchange="change()"/>Nieuw</label>
-        </div>
+      
 
       <!--De footer met copyright-->
       <footer class="footer">
         <div class="col-12 col-md-12 col-lg-12 col-xl-12">
             Bubble Candy &copy; 2021, Alle rechten voorbehouden. Privacybeleid | Discaimer
         </div>
-    </footer>
+      </footer>
     </body>
 </html>

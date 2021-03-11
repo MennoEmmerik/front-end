@@ -76,6 +76,7 @@ footer{
     right: 0.2px;
     text-align: center;
     width: 100%;
+    border-radius: 10px;
 }
 
 
@@ -92,23 +93,14 @@ footer{
     min-height: 30vw;
 }
 
-#label{
+.label{
     background-color: #FFFFC2;
     border-radius: 10px;
     left: 3%;
-    width: 13%;
-    margin-top: 1.5%;
+    margin-top: 5%;
     position: relative;
 }
 
-#label2{
-    background-color: #FFFFC2;
-    border-radius: 10px;
-    left: 3%;
-    width: 10%;
-    margin-top: 1.5%;
-    position: relative;
-}
 
 .product_index{
     height: 390px;
@@ -126,10 +118,21 @@ footer{
 .prijs{
     background-color: #FFA6A6;
     position: relative;
-    max-width: 75%;
     color: #FFFFC2;
-    border: 2px solid white;
-    
+    border: 2px solid #C8E7ED;
+    border-radius: 10px;
+    left: 5%;
+    max-width: 90%;
+    height: 11%;
+}
+
+span{
+    font-size: 14px;
+}
+
+#karretje{
+    display: block;
+    float: right;
 }
 
 /*------------------------------------ INDEX PAGE  ----------------------------------*/
@@ -229,24 +232,23 @@ footer{
 /* Blok voor de nieuws berichten */
 .nieuws-bericht{
     height: 490px;
-    width: 340px;
+    width: 300px;
     float: left;
-    margin-left: 30px;
-    margin-bottom: 30px;
     background-color: #FFFFC2;
     border: 1px solid black;
     border-radius: 10%;
     text-align: center;
     color: #FFA5A5;
     display: none;
-    
+    margin-bottom: 30px;
+    margin-left: 20px;
 }
 
 /* Section (Nieuwspagina) */
-.nieuws{
+/* .nieuws{
     position: absolute;
     top: 30%;
-}
+} */
 
 /* alle p-elementen (Nieuwspagina) */
 .bericht{
@@ -341,8 +343,6 @@ h1, h2, h3, h4, h5, h6, p{
     color:#FFA5A5;
     border: 1px solid black;
 }
-
-
 
 
 /*------------------------------------ CONTACT PAGE  ----------------------------------*/
