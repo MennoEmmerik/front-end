@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           Bubble Candy Nieuws
+        </title>
+
+        <!-- logo in title -->
+        <link rel = "shortcut icon" href ="../pictures/logo/bubblecandy_logo_transparent.png" type = "image/x-icon"> 
+
+        <!-- inladen scripts -->
+        <script src="../Bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="../script/script.js"></script>
+
+        <!-- inladen style -->
+        <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../customStyle/style.css">
+
+        <!-- Dit wordt gebruikt voor de icons, roep mij als je een icon wilt gebruiken dan leg ik uit hoe het moet-->
+        <script src="https://kit.fontawesome.com/15f422bf60.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+      <!-- begin menu -->
+      <nav class="navbar navbar-expand-md navbar-transparent">
+        <a class="navbar-brand" href="#">
+            <img src="../pictures/logo/bubblecandy_logo_transparent.png" height="200px" class="img-responsive">
+        </a>
+        <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample05">
+          <ul class="navbar-nav justify-content-between w-100">
+            <li class="nav-item active">
+              <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item" class="menu-item"> 
+                <a class="nav-link" 
+                   href="/sites/producten.html"> 
+                   Producten
+                </a> 
+            </li> 
+            <li class="nav-item" class="menu-item"> 
+                <a class="nav-link"
+                   href="/sites/nieuws.html"> 
+                  Nieuws 
+                </a> 
+            </li> 
+            <li class="nav-item" class="menu-item"> 
+                <a class="nav-link"
+                   href="/sites/overOns.html"> 
+                  Over ons 
+                </a> 
+            </li> 
+            <li class="nav-item" class="menu-item"> 
+                <a class="nav-link"
+                   href="/sites/contact.html"> 
+                  Contact
+                </a> 
+            </li> 
+
+            <!-- winkelwagen toevoegen -->
+            <li class="nav-default">
+                <a class="nav-default pr-2"><i class="fas fa-shopping-cart fa-3x"></i></a>
+            </li>
+          </ul>
+        </div><!--einde menu items-->
+      </nav><!--einde menu balk-->
+
+      <!-- Tekst voordat alle nieuwsberichten tevoorschijn komen -->
+      <h1 id="laatsteNieuws">Het laatste nieuws over Bubble Candy</h1>
+
+      <div class="container-fluid">
+          <div class="container">
+              <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <!-- 4 Blokken voor de nieuws berichten -->
+                    <section class="nieuws">
+                        <!-- Blok 1 -->
+                        <div class="nieuws-bericht" id="div1">
+                            <h3>Dit is de titel van het nieuwsbericht</h3>
+                            <img src="../pictures/producten/drop.jpg" class="drop-nieuws">
+                            <p class="bericht">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Quisque semper ligula dolor, non volutpat elit faucibus volutpat. 
+                                Suspendisse potenti. Sed consectetur sodales gravida. Maecenas rutrum a arcu sed convallis.
+                                <br>
+                                <br>
+                                Vestibulum id mi velit. Cras pulvinar ultricies laoreet. 
+                                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin suscipit orci nisl, a auctor erat accumsan sit amet.
+                                In hac habitasse platea dictumst. Suspendisse pharetra lorem vitae risus dignissim convallis.
+                                Praesent in dapibus orci. 
+                                <br>
+                                <br>
+                                Etiam semper consequat hendrerit. In porttitor, tellus ut vestibulum molestie, lorem ante tincidunt felis, nec sollicitudin arcu lacus sit amet odio.
+                                Morbi facilisis ullamcorper nibh, nec commodo ipsum commodo id. Curabitur tristique, elit eu gravida pulvinar, urna turpis iaculis eros, vel efficitur nunc eros tempor mi.
+                            </p>
+                        </div>
+                        <!-- Blok 2 -->
+                        <div class="nieuws-bericht" id="div2">
+                            <h3>Dit is de titel van het nieuwsbericht</h3>
+                            <img src="../pictures/producten/drop.jpg" class="drop-nieuws">
+                            <p class="bericht">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Quisque semper ligula dolor, non volutpat elit faucibus volutpat. 
+                                Suspendisse potenti. Sed consectetur sodales gravida. Maecenas rutrum a arcu sed convallis.
+                                <br>
+                                <br>
+                                Vestibulum id mi velit. Cras pulvinar ultricies laoreet. 
+                                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin suscipit orci nisl, a auctor erat accumsan sit amet.
+                                In hac habitasse platea dictumst. Suspendisse pharetra lorem vitae risus dignissim convallis.
+                                Praesent in dapibus orci. 
+                                <br>
+                                <br>
+                                Etiam semper consequat hendrerit. In porttitor, tellus ut vestibulum molestie, lorem ante tincidunt felis, nec sollicitudin arcu lacus sit amet odio.
+                                Morbi facilisis ullamcorper nibh, nec commodo ipsum commodo id. Curabitur tristique, elit eu gravida pulvinar, urna turpis iaculis eros, vel efficitur nunc eros tempor mi.
+                            </p>
+                        </div>
+                        <!-- Blok 3 -->
+                        <div class="nieuws-bericht" id="div3">
+                            <h3>Dit is de titel van het nieuwsbericht</h3>
+                            <img src="../pictures/producten/drop.jpg" class="drop-nieuws">
+                            <p class="bericht">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Quisque semper ligula dolor, non volutpat elit faucibus volutpat. 
+                                Suspendisse potenti. Sed consectetur sodales gravida. Maecenas rutrum a arcu sed convallis.
+                                <br>
+                                <br>
+                                Vestibulum id mi velit. Cras pulvinar ultricies laoreet. 
+                                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin suscipit orci nisl, a auctor erat accumsan sit amet.
+                                In hac habitasse platea dictumst. Suspendisse pharetra lorem vitae risus dignissim convallis.
+                                Praesent in dapibus orci. 
+                                <br>
+                                <br>
+                                Etiam semper consequat hendrerit. In porttitor, tellus ut vestibulum molestie, lorem ante tincidunt felis, nec sollicitudin arcu lacus sit amet odio.
+                                Morbi facilisis ullamcorper nibh, nec commodo ipsum commodo id. Curabitur tristique, elit eu gravida pulvinar, urna turpis iaculis eros, vel efficitur nunc eros tempor mi.
+                            </p>
+                        </div>
+                        <!-- Blok 4 -->
+                        <div class="nieuws-bericht" id="div4">
+                            <h3>Dit is de titel van het nieuwsbericht</h3>
+                            <img src="../pictures/producten/drop.jpg" class="drop-nieuws">
+                            <p class="bericht">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Quisque semper ligula dolor, non volutpat elit faucibus volutpat. 
+                                Suspendisse potenti. Sed consectetur sodales gravida. Maecenas rutrum a arcu sed convallis.
+                                <br>
+                                <br>
+                                Vestibulum id mi velit. Cras pulvinar ultricies laoreet. 
+                                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin suscipit orci nisl, a auctor erat accumsan sit amet.
+                                In hac habitasse platea dictumst. Suspendisse pharetra lorem vitae risus dignissim convallis.
+                                Praesent in dapibus orci. 
+                                <br>
+                                <br>
+                                Etiam semper consequat hendrerit. In porttitor, tellus ut vestibulum molestie, lorem ante tincidunt felis, nec sollicitudin arcu lacus sit amet odio.
+                                Morbi facilisis ullamcorper nibh, nec commodo ipsum commodo id. Curabitur tristique, elit eu gravida pulvinar, urna turpis iaculis eros, vel efficitur nunc eros tempor mi.
+                            </p>
+                        </div>
+                    </section>
+                    <section class="nieuws">
+                        <!-- Blok 5 -->
+                        <div class="nieuws-bericht" id="div5">
+                            <h3>Dit is de titel van het nieuwsbericht</h3>
+                            <img src="../pictures/producten/drop.jpg" class="drop-nieuws">
+                            <p class="bericht">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Quisque semper ligula dolor, non volutpat elit faucibus volutpat. 
+                                Suspendisse potenti. Sed consectetur sodales gravida. Maecenas rutrum a arcu sed convallis.
+                                <br>
+                                <br>
+                                Vestibulum id mi velit. Cras pulvinar ultricies laoreet. 
+                                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin suscipit orci nisl, a auctor erat accumsan sit amet.
+                                In hac habitasse platea dictumst. Suspendisse pharetra lorem vitae risus dignissim convallis.
+                                Praesent in dapibus orci. 
+                                <br>
+                                <br>
+                                Etiam semper consequat hendrerit. In porttitor, tellus ut vestibulum molestie, lorem ante tincidunt felis, nec sollicitudin arcu lacus sit amet odio.
+                                Morbi facilisis ullamcorper nibh, nec commodo ipsum commodo id. Curabitur tristique, elit eu gravida pulvinar, urna turpis iaculis eros, vel efficitur nunc eros tempor mi.
+                            </p>
+                        </div>
+                        <!-- Blok 6 -->
+                        <div class="nieuws-bericht" id="div6">
+                            <h3>Dit is de titel van het nieuwsbericht</h3>
+                            <img src="../pictures/producten/drop.jpg" class="drop-nieuws">
+                            <p class="bericht">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Quisque semper ligula dolor, non volutpat elit faucibus volutpat. 
+                                Suspendisse potenti. Sed consectetur sodales gravida. Maecenas rutrum a arcu sed convallis.
+                                <br>
+                                <br>
+                                Vestibulum id mi velit. Cras pulvinar ultricies laoreet. 
+                                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin suscipit orci nisl, a auctor erat accumsan sit amet.
+                                In hac habitasse platea dictumst. Suspendisse pharetra lorem vitae risus dignissim convallis.
+                                Praesent in dapibus orci. 
+                                <br>
+                                <br>
+                                Etiam semper consequat hendrerit. In porttitor, tellus ut vestibulum molestie, lorem ante tincidunt felis, nec sollicitudin arcu lacus sit amet odio.
+                                Morbi facilisis ullamcorper nibh, nec commodo ipsum commodo id. Curabitur tristique, elit eu gravida pulvinar, urna turpis iaculis eros, vel efficitur nunc eros tempor mi.
+                            </p>
+                        </div>
+                        <!-- Blok 7 -->
+                        <div class="nieuws-bericht" id="div7">
+                            <h3>Dit is de titel van het nieuwsbericht</h3>
+                            <img src="../pictures/producten/drop.jpg" class="drop-nieuws">
+                            <p class="bericht">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Quisque semper ligula dolor, non volutpat elit faucibus volutpat. 
+                                Suspendisse potenti. Sed consectetur sodales gravida. Maecenas rutrum a arcu sed convallis.
+                                <br>
+                                <br>
+                                Vestibulum id mi velit. Cras pulvinar ultricies laoreet. 
+                                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin suscipit orci nisl, a auctor erat accumsan sit amet.
+                                In hac habitasse platea dictumst. Suspendisse pharetra lorem vitae risus dignissim convallis.
+                                Praesent in dapibus orci. 
+                                <br>
+                                <br>
+                                Etiam semper consequat hendrerit. In porttitor, tellus ut vestibulum molestie, lorem ante tincidunt felis, nec sollicitudin arcu lacus sit amet odio.
+                                Morbi facilisis ullamcorper nibh, nec commodo ipsum commodo id. Curabitur tristique, elit eu gravida pulvinar, urna turpis iaculis eros, vel efficitur nunc eros tempor mi.
+                            </p>
+                        </div>
+                        <!-- Blok 8 -->
+                        <div class="nieuws-bericht" id="div8">
+                            <h3>Dit is de titel van het nieuwsbericht</h3>
+                            <img src="../pictures/producten/drop.jpg" class="drop-nieuws">
+                            <p class="bericht">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Quisque semper ligula dolor, non volutpat elit faucibus volutpat. 
+                                Suspendisse potenti. Sed consectetur sodales gravida. Maecenas rutrum a arcu sed convallis.
+                                <br>
+                                <br>
+                                Vestibulum id mi velit. Cras pulvinar ultricies laoreet. 
+                                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin suscipit orci nisl, a auctor erat accumsan sit amet.
+                                In hac habitasse platea dictumst. Suspendisse pharetra lorem vitae risus dignissim convallis.
+                                Praesent in dapibus orci. 
+                                <br>
+                                <br>
+                                Etiam semper consequat hendrerit. In porttitor, tellus ut vestibulum molestie, lorem ante tincidunt felis, nec sollicitudin arcu lacus sit amet odio.
+                                Morbi facilisis ullamcorper nibh, nec commodo ipsum commodo id. Curabitur tristique, elit eu gravida pulvinar, urna turpis iaculis eros, vel efficitur nunc eros tempor mi.
+                            </p>
+                        </div>
+                    </section>
+                </div><!--col-12-->
+              </div><!--row-->
+          </div><!--container-->
+      </div><!--containter-fluid-->
+
+        <!--De footer met copyright-->
+        <div class="container-fluid">
+            <div class="container">
+                <footer class="footer">
+                    <div class="col-12 col-md-12 col-lg-12 col-xl-12">
+                        Bubble Candy &copy; 2021, Alle rechten voorbehouden. Privacybeleid | Discaimer
+                    </div>
+                </footer>
+            </div>
+        </div>
+        
+    </body>
+</html>
+<!-- class="col-12 col-sm-12 col-md-12 col-lg-1 col-xl-4" -->

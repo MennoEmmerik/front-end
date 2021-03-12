@@ -2,18 +2,312 @@
 <html>
     <head>
         <title>
-            Bubble candy
+            Bubble Candy
         </title>
+        <!-- meta information -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <!-- logo in title -->
+        <link rel = "shortcut icon" href ="pictures/logo/bubblecandy_logo_transparent.png" type = "image/x-icon"> 
+        
         <!-- inladen scripts -->
         <script src="Bootstrap/js/bootstrap.min.js"></script>
+        <script src="Bootstrap/js/bootstrap.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
         <!-- inladen style -->
-        <link href="Bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="customStyle/style.css">
+
+        <!-- Dit wordt gebruikt voor de icons, roep mij als je een icon wilt gebruiken dan leg ik uit hoe het moet-->
+        <script src="https://kit.fontawesome.com/15f422bf60.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
-        <h1>Dit is wel gek man bro.</h1>
-        <h2> hiii </h2>
+      <!-- begin menu -->
+      <nav class="navbar navbar-expand-md navbar-transparent">
+        <a class="navbar-brand" href="#">
+          <img src="pictures/logo/bubblecandy_logo_transparent.png" height="200px" class="img-responsive">
+        </a>
+        <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#myNav" aria-controls="#myNav" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="myNav">
+          <ul class="navbar-nav justify-content-between w-100">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item" class="menu-item"> 
+              <a class="nav-link" href="/sites/producten.html"> 
+                Producten
+              </a> 
+            </li> 
+            <li class="nav-item" class="menu-item"> 
+              <a class="nav-link" href="/sites/nieuws.html"> 
+                Nieuws 
+              </a> 
+            </li> 
+            <li class="nav-item" class="menu-item"> 
+             <a class="nav-link" href="/sites/overOns.html"> 
+              Over ons 
+             </a> 
+            </li> 
+            <li class="nav-item" class="menu-item"> 
+              <a class="nav-link" href="/sites/contact.html"> 
+                Contact
+              </a> 
+            </li> 
+
+            <!-- winkelwagen toevoegen -->
+            <li class="nav-default">
+              <a class="nav-default pr-2">
+                <i class="fas fa-shopping-cart fa-3x"></i>
+              </a>
+            </li>
+          </ul>
+        </div><!--einde menu items-->
+      </nav><!--einde menu balk-->
+
+
+
+
+      <!-- Begin carousel -->
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <!-- eeste "slide" -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container-fluid">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="banner">
+                      <!-- leeg -->
+                    </div>
+                  </div>
+                </div>
+              </div><!--container-->
+            </div> <!--container-fluid-->
+          </div>
+        </div><!--einde inhoud carousel-->
+      </div><!--einde carousel-->
+
+      <!-- Producten feed  -->
+      <div class="col-3 col-sm-3 col-md-3 col-lg-2 col-xl-2">
+        <h1 class="label">
+          <p>
+            Producten
+          </p>
+        </h1>
+      </div>
+
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <!-- 4 Blokken voor de nieuws berichten -->
+            <section class="product-group">
+                <!-- Blok 1 -->
+                <div class="product_index" id="div1">
+                    <h3>Naam merk</h3>
+                    <img src="pictures/producten/drop.jpg" class="drop-nieuws">
+                    <p class="">
+                        <table>
+                          <tr>
+                            <td>
+                              Venco zoete drop
+                            </td>
+                          </tr>
+                        </table>
+                    </p>
+                    <div class="prijs">
+                      <span>
+                        &euro;1,95,-
+                      </span>
+                      <div id="karretje">
+                        <a>
+                          <i class="fas fa-shopping-cart fa-1x" id="karretje2"></i>
+                        </a>
+                      </div>
+                    </div><!--.prijs-->
+                </div>
+                <!-- Blok 2 -->
+                <div class="product_index" id="div2">
+                  <h3>Naam merk</h3>
+                    <img src="pictures/producten/Haribo-Zoute-rijen-200gr.png" class="drop-nieuws">
+                    <p class="">
+                      <table>
+                        <tr>
+                          <td>
+                            Merk: Haribo
+                          </td>
+                        </tr>
+                      </table>
+                    </p>
+                    <div class="prijs">
+                      <span>
+                        &euro;1,95,-
+                      </span>
+                      <div id="karretje">
+                        <a>
+                          <i class="fas fa-shopping-cart fa-1x" id="karretje2"></i>
+                        </a>
+                      </div>
+                    </div><!--.prijs-->
+                </div>
+                <!-- Blok 3 -->
+                <div class="product_index" id="div3">
+                  <h3>Naam merk</h3>
+                    <img src="pictures/producten/haribo-schuimblokken-bestellen.png" class="drop-nieuws">
+                    <p class="">
+                      <table>
+                        <tr>
+                          <td>
+                            Merk: Haribo
+                          </td>
+                        </tr>
+                      </table>
+                    </p>
+                    <div class="prijs">
+                      <span>
+                        &euro;1,95,-
+                      </span>
+                      <div id="karretje">
+                        <a>
+                          <i class="fas fa-shopping-cart fa-1x" id="karretje2"></i>
+                        </a>
+                      </div>
+                    </div><!--.prijs-->
+                </div>
+                <!-- Blok 4 -->
+                <div class="product_index" id="div4">
+                  <h3>Naam merk</h3>
+                    <img src="pictures/producten/haribo_hartjes_snoep_3.jpg" class="drop-nieuws">
+                    <p class="">
+                      <table>
+                        <tr>
+                          <td>
+                            Haribo zoete hartjes snoep
+                          </td>
+                        </tr>
+                      </table>
+                    </p>
+                    <div class="prijs">
+                      <span>
+                        &euro;1,95,-
+                      </span>
+                      <div id="karretje">
+                        <a>
+                          <i class="fas fa-shopping-cart fa-1x" id="karretje2"></i>
+                        </a>
+                      </div>
+                    </div><!--.prijs-->
+                </div>
+            </section>
+          </div><!--row-->
+        </div><!--container-->
+      </div><!--container-fluid-->
+
+      <!-- Nieuws feed  -->
+      <div class="col-3 col-sm-3 col-md-3 col-lg-2 col-xl-2">
+        <h1 class="label">
+          <p>
+            Nieuws
+          </p>
+        </h1>
+      </div>
+
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <!-- 4 Blokken voor de nieuws berichten -->
+            <section class="product-group">
+                <!-- Blok 1 -->
+                <div class="product_index" id="div1">
+                  <h3>Dit is de titel van het nieuwsbericht</h3>
+                   <img src="pictures/producten/drop.jpg" class="drop-nieuws">
+                  <p class="bericht">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Quisque semper ligula dolor, non volutpat elit faucibus volutpat. 
+                    Suspendisse potenti. Sed consectetur sodales gravida. Maecenas rutrum a arcu sed convallis.
+                    
+                    Vestibulum id mi velit. Cras pulvinar ultricies laoreet. 
+                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin suscipit orci nisl, a auctor erat accumsan sit amet.
+                    In hac habitasse platea dictumst. Suspendisse pharetra lorem vitae risus dignissim convallis.
+                    Praesent in dapibus orci. 
+                    
+                    Etiam semper consequat hendrerit. In porttitor, tellus ut vestibulum molestie, lorem ante tincidunt felis, nec sollicitudin arcu lacus sit amet odio.
+                    Morbi facilisis ullamcorper nibh, nec commodo ipsum commodo id. Curabitur tristique, elit eu gravida pulvinar, urna turpis iaculis eros, vel efficitur nunc eros tempor mi.
+                  </p>
+                </div>
+                <!-- Blok 2 -->
+                <div class="product_index" id="div2">
+                  <h3>Dit is de titel van het nieuwsbericht</h3>
+                  <img src="pictures/producten/drop.jpg" class="drop-nieuws">
+                  <p class="bericht">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Quisque semper ligula dolor, non volutpat elit faucibus volutpat. 
+                    Suspendisse potenti. Sed consectetur sodales gravida. Maecenas rutrum a arcu sed convallis.
+                    
+                    Vestibulum id mi velit. Cras pulvinar ultricies laoreet. 
+                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin suscipit orci nisl, a auctor erat accumsan sit amet.
+                    In hac habitasse platea dictumst. Suspendisse pharetra lorem vitae risus dignissim convallis.
+                    Praesent in dapibus orci. 
+                    
+                    Etiam semper consequat hendrerit. In porttitor, tellus ut vestibulum molestie, lorem ante tincidunt felis, nec sollicitudin arcu lacus sit amet odio.
+                    Morbi facilisis ullamcorper nibh, nec commodo ipsum commodo id. Curabitur tristique, elit eu gravida pulvinar, urna turpis iaculis eros, vel efficitur nunc eros tempor mi.
+                  </p>
+                </div>
+                <!-- Blok 3 -->
+                <div class="product_index" id="div3">
+                  <h3>Dit is de titel van het nieuwsbericht</h3>
+                  <img src="pictures/producten/drop.jpg" class="drop-nieuws">
+                  <p class="bericht">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Quisque semper ligula dolor, non volutpat elit faucibus volutpat. 
+                    Suspendisse potenti. Sed consectetur sodales gravida. Maecenas rutrum a arcu sed convallis.
+                    
+                    Vestibulum id mi velit. Cras pulvinar ultricies laoreet. 
+                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin suscipit orci nisl, a auctor erat accumsan sit amet.
+                    In hac habitasse platea dictumst. Suspendisse pharetra lorem vitae risus dignissim convallis.
+                    Praesent in dapibus orci. 
+                    
+                    Etiam semper consequat hendrerit. In porttitor, tellus ut vestibulum molestie, lorem ante tincidunt felis, nec sollicitudin arcu lacus sit amet odio.
+                    Morbi facilisis ullamcorper nibh, nec commodo ipsum commodo id. Curabitur tristique, elit eu gravida pulvinar, urna turpis iaculis eros, vel efficitur nunc eros tempor mi.
+                  </p>
+                </div>
+                <!-- Blok 4 -->
+                <div class="product_index" id="div4">
+                  <h3>Dit is de titel van het nieuwsbericht</h3>
+                  <img src="pictures/producten/drop.jpg" class="drop-nieuws">
+                  <p class="bericht">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Quisque semper ligula dolor, non volutpat elit faucibus volutpat. 
+                    Suspendisse potenti. Sed consectetur sodales gravida. Maecenas rutrum a arcu sed convallis.
+                    
+                    Vestibulum id mi velit. Cras pulvinar ultricies laoreet. 
+                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin suscipit orci nisl, a auctor erat accumsan sit amet.
+                    In hac habitasse platea dictumst. Suspendisse pharetra lorem vitae risus dignissim convallis.
+                    Praesent in dapibus orci. 
+                    
+                    Etiam semper consequat hendrerit. In porttitor, tellus ut vestibulum molestie, lorem ante tincidunt felis, nec sollicitudin arcu lacus sit amet odio.
+                    Morbi facilisis ullamcorper nibh, nec commodo ipsum commodo id. Curabitur tristique, elit eu gravida pulvinar, urna turpis iaculis eros, vel efficitur nunc eros tempor mi.
+                  </p>
+                </div>
+            </section>
+          </div><!--row-->
+        </div><!--container-->
+      </div><!--container-fluid-->
+
+
+
+      <!--De footer met copyright-->
+      <footer class="footer">
+          <div class="col-12 col-md-12 col-lg-12 col-xl-12">
+              Bubble Candy &copy; 2021, Alle rechten voorbehouden. Privacybeleid | Discaimer
+          </div>
+      </footer>
+  </body>
+</html>
+
     </body>
 </html>

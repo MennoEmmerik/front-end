@@ -1,0 +1,347 @@
+/* 
+
+GEEN ENKELE MARGIN TOEVOEGEN AAN ELEMENTEN DIT KOMT OMDAT BOOTSTRAP HIER GEBRUIK VAN MAAKT. ALS HET ECHT NIET ANDERS KAN GEBRUIK HET DAN EEN KLEIN BEETJE.
+
+*/
+
+/*------------------------- STYLING FOR AL PAGES ----------------------------------*/
+
+body{
+    background-color: #C8E7ED;
+}
+
+/* ruimte voor menu bar  */
+.navbar-brand{
+    padding: 0px;
+}
+
+.nav-item{
+    border: 1px solid black;
+    background-color: #FFFFC2;
+    border-radius: 10px;
+}
+
+.nav-item > a{
+    color: #FFA6A6;
+}
+
+.nav-item:hover{
+    background-color: #FFA6A6;
+    color: #C8E7ED;
+}
+
+a:hover{
+    color: #C8E7ED;
+}
+
+/* hamburger menu icon stylen */
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,166,166, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* winkel kar */
+.fa-shopping-cart{
+    padding-right: 150px;
+    color: black;
+}
+
+/*einde menu */
+
+/* Custom scroll balk */
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+   
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background:#FFA5A5; 
+    border-radius: 10px;
+}
+  
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: #FFFFC2;
+}
+
+/* Custom scroll balk */
+
+/* Footer */
+footer{
+    background-color: #FFFFC2;
+    color: #FFA6A6;
+    position: fixed;
+    bottom: 0px;
+    right: 0.2px;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/*------------------------- STYLING FOR AL PAGES ----------------------------------*/
+
+
+/*------------------------------------ INDEX PAGE  ----------------------------------*/
+
+.banner{
+    background-image: url("../pictures/banners/snoepBanner_index.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #FFA6A6; /*laat zien als de foto er niet is*/
+    min-height: 30vw;
+}
+
+.label{
+    background-color: #FFFFC2;
+    border-radius: 10px;
+    left: 3%;
+    margin-top: 5%;
+    position: relative;
+}
+
+
+.product_index{
+    height: 390px;
+    width: 290px;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background-color: #FFFFC2;
+    border: 1px solid black;
+    border-radius: 10%;
+    text-align: center;
+    color: #FFA5A5;
+}
+
+.prijs{
+    background-color: #FFA6A6;
+    position: relative;
+    color: #FFFFC2;
+    border: 2px solid #C8E7ED;
+    border-radius: 10px;
+    left: 5%;
+    max-width: 90%;
+    height: 11%;
+}
+
+span{
+    font-size: 14px;
+    text-align: left;
+    left: 20px;
+}
+
+#karretje{
+    position: relative;
+    float: right;
+    align-content: right;
+}
+
+#karretje2{
+    padding-right: 50px;
+}
+
+
+/*------------------------------------ INDEX PAGE  ----------------------------------*/
+
+/*------------------------------------ PRODUCTEN PAGE  ----------------------------------*/
+
+.product{
+    height: 390px;
+    width: 280px;
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    background-color: #FFFFC2;
+    border: 1px solid black;
+    border-radius: 10%;
+    text-align: center;
+    color: #FFA5A5;
+}
+
+#titel_producten{
+    text-align: center;
+}
+
+.filter{
+    position: fixed;
+    left: 20px;
+    border: #FFFFC2 5px solid;
+    width: 165px;
+    height: 390px;
+    border-radius: 10px;
+}
+
+#titel_filter{
+    text-align: center;
+}
+
+.checkbox_filter{
+    display: block;
+    font-size: 22px;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 32px;
+    color: #FFA5A5;
+}
+
+.checkbox_filter input{
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin-right: 25px;
+}
+
+.checkbox_filter:checked input{
+    background-color: black;
+}
+
+
+/* width (ProductenPagina)*/
+.product_oms::-webkit-scrollbar {
+    width: 20px;
+}
+  
+  /* Track (ProductenPagina)*/
+.product_oms::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+   
+  /* Handle (ProductenPagina)*/
+.product_oms::-webkit-scrollbar-thumb {
+    background:#C8E7ED; 
+    border-radius: 10px;
+}
+  
+  /* Handle on hover (ProductenPagina)*/
+.product_oms::-webkit-scrollbar-thumb:hover {
+    background: #FFA5A5; 
+}
+
+
+/*------------------------------------ PRODUCTEN PAGE  ----------------------------------*/
+
+
+
+/*------------------------------------ NIEUWS PAGE  ----------------------------------*/
+
+/* Blok voor de nieuws berichten */
+.nieuws-bericht{
+    height: 490px;
+    width: 300px;
+    float: left;
+    background-color: #FFFFC2;
+    border: 1px solid black;
+    border-radius: 10%;
+    text-align: center;
+    color: #FFA5A5;
+    display: none;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+/* Section (Nieuwspagina) */
+/* .nieuws{
+    position: absolute;
+    top: 30%;
+} */
+
+/* alle p-elementen (Nieuwspagina) */
+.bericht{
+    position: relative;
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    overflow-y: scroll;
+    font-size: 17px;
+}
+
+/* width (NIEUWSPAGINA)*/
+.bericht::-webkit-scrollbar {
+    width: 20px;
+}
+  
+  /* Track (NIEUWSPAGINA)*/
+.bericht::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+   
+  /* Handle (NIEUWSPAGINA)*/
+.bericht::-webkit-scrollbar-thumb {
+    background:#C8E7ED; 
+    border-radius: 10px;
+}
+  
+  /* Handle on hover (NIEUWSPAGINA)*/
+.bericht::-webkit-scrollbar-thumb:hover {
+    background: #FFA5A5; 
+}
+/* width (ALLE PAGINA'S)*/
+body::-webkit-scrollbar {
+    width: 20px;
+}
+
+.drop-nieuws{
+    position: relative;
+    background-image: url("../pictures/producten/drop.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30%;
+    width: 90%;
+}
+
+/*------------------------------------ NIEUWS PAGE  ----------------------------------*/
+
+/*------------------------------------ OVER ONS PAGE  ----------------------------------*/
+
+
+
+/*heading opgemaakt*/
+h1, h2, h3, h4, h5, h6, p{
+    color: #FFA5A5;
+}
+/*overons sections opmaken*/
+.over-ons{
+    float: left;
+}
+.over-ons-tekst{
+    width: 70%;
+}
+.over-ons-tekst > p{
+    margin: 0px;
+}
+.center{
+    text-align: center;
+}
+
+/*------------------------------------ OVER ONS PAGE  ----------------------------------*/
+
+/*------------------------------------ CONTACT PAGE  ----------------------------------*/
+.table-contact{
+    background-color: #FFFFC2;
+    margin: auto;
+}
+.form-contact > tbody, td, tfoot, th, thead, tr{
+    padding: 30px !important;
+}
+.label-contact {
+    color: #FFA5A5;
+}
+.checkbox{
+    color: #FFA5A5;
+    padding-left: 15px;
+}
+.versturen{
+    width: 150px;
+    height: 50px;
+    background-color: #C8E7ED;
+    color:#FFA5A5;
+    border: 1px solid black;
+}
+
+
+/*------------------------------------ CONTACT PAGE  ----------------------------------*/

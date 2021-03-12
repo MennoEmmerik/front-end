@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Bubble Candy
+        </title>
+
+        <!-- logo in title -->
+        <link rel = "shortcut icon" href ="../pictures/logo/bubblecandy_logo_transparent.png" type = "image/x-icon"> 
+
+        <!-- inladen scripts -->
+        <script src="../Bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <!-- inladen style -->
+        <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../customStyle/style.css">
+
+        <!-- Dit wordt gebruikt voor de icons, roep mij als je een icon wilt gebruiken dan leg ik uit hoe het moet-->
+        <script src="https://kit.fontawesome.com/15f422bf60.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!-- begin menu -->
+        <nav class="navbar navbar-expand-md navbar-transparent">
+            <a class="navbar-brand" href="#">
+                <img src="../pictures/logo/bubblecandy_logo_transparent.png" height="200px" class="img-responsive">
+            </a>
+            <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample05">
+              <ul class="navbar-nav justify-content-between w-100">
+                <li class="nav-item active">
+                  <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item" class="menu-item"> 
+                    <a class="nav-link" 
+                       href="/sites/producten.html"> 
+                       Producten
+                    </a> 
+                </li> 
+                <li class="nav-item" class="menu-item"> 
+                    <a class="nav-link"
+                       href="/sites/nieuws.html"> 
+                      Nieuws 
+                    </a> 
+                </li> 
+                <li class="nav-item" class="menu-item"> 
+                    <a class="nav-link"
+                       href="/sites/overOns.html"> 
+                      Over ons 
+                    </a> 
+                </li> 
+                <li class="nav-item" class="menu-item"> 
+                    <a class="nav-link"
+                       href="/sites/contact.html"> 
+                      Contact
+                    </a> 
+                </li> 
+
+                <!-- winkelwagen toevoegen -->
+                <li class="nav-default">
+                    <a class="nav-default pr-2"><i class="fas fa-shopping-cart fa-3x"></i></a>
+                </li>
+              </ul>
+            </div><!--einde menu items-->
+          </nav><!--einde menu balk-->
+
+        
+        <!-- open ruimte -->
+
+      <div class="container-fluid">
+        <div class="contianer">
+          <div class="row">
+              <h3 class="col-12 col-xs-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center">
+                Contact
+              </h3>
+              <p class="col-12 col-xs-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center"> 
+                Heeft u een vraag? Vul hieronder uw gegevens en vraag in en wij nemen zo spoedig mogelijk contact met je op.
+              </p>
+              <form class="form-contact">
+                <table class="table-contact">
+                  <tr class="tr-contact">
+                    <td>
+                      <label for="aanhef" class="label-contact">
+                        Aanhef
+                      </label>
+                    </td>
+                    <td>
+                      <input type="text" class="contact-input" for="aanhef" required>
+                    </td>
+                  </tr>
+                  <tr class="tr-contact">
+                    <td>
+                      <label for="naam" class="label-contact">
+                        Naam
+                      </label>
+                    </td>
+                    <td>
+                      <input type="text" class="contact-input" for="naam" required>
+                    </td>
+                  </tr>
+                  <tr class="tr-contact">
+                    <td>
+                      <label for="email" class="label-contact">
+                        E-mail
+                      </label>
+                    </td>
+                    <td>
+                      <input type="email" class="contact-input" for="email" required>
+                    </td>
+                  </tr>
+                  <tr class="tr-contact">
+                    <td>
+                      <label for="telefoonnummer" class="label-contact">
+                        Telefoonnummer
+                      </label>
+                    </td>
+                    <td>
+                      <input type="text" class="contact-input" for="telefoonnummer" required>
+                    </td>
+                  </tr>
+                  <tr class="tr-contact">
+                    <td>
+                      <label for="vraag" class="label-contact">
+                        Vraag/Opmerking?
+                      </label>
+                    </td>
+                    <td>
+                      <textarea type="number" class="contact-input" for="vraag"></textarea>
+                    </td>
+                  </tr>
+                  <tr class="tr-contact">
+                    <td>
+                      <input type="checkbox" required><span class="checkbox">Ik ga akkoord met de algemene voorwaarden!
+                    </td>
+                  </tr>
+                  <tr class="tr-contact">
+                    <td>
+                      <button class="versturen">Versturen</button>
+                    </td>
+                  </tr>
+                </table>
+              </form>
+            </div><!--row-->
+          </div><!--container-->
+        </div><!--container-fluid-->
+
+        <!--De footer met copyright-->
+      <footer class="footer">
+        <div class="col-12 col-md-12 col-lg-12 col-xl-12">
+            Bubble Candy &copy; 2021, Alle rechten voorbehouden. Privacybeleid | Discaimer
+        </div>
+    </footer>
+    </body>
+</html>

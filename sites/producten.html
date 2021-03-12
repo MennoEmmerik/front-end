@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Bubble Candy Producten
+        </title>
+
+        <!-- logo in title -->
+        <link rel = "shortcut icon" href ="../pictures/logo/bubblecandy_logo_transparent.png" type = "image/x-icon"> 
+
+        <!-- inladen scripts -->
+        <script src="../Bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="../script/script.js"></script>
+
+        <!-- inladen style -->
+        <link href="../Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../customStyle/style.css" rel="stylesheet">
+
+       <!-- Dit wordt gebruikt voor de icons, roep mij als je een icon wilt gebruiken dan leg ik uit hoe het moet-->
+        <script src="https://kit.fontawesome.com/15f422bf60.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!-- begin menu -->
+        <nav class="navbar navbar-expand-md navbar-transparent">
+            <a class="navbar-brand" href="#">
+                <img src="../pictures/logo/bubblecandy_logo_transparent.png" height="200px" class="img-responsive">
+            </a>
+            <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample05">
+              <ul class="navbar-nav justify-content-between w-100">
+                <li class="nav-item active">
+                  <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item" class="menu-item"> 
+                    <a class="nav-link" 
+                       href="/sites/producten.html"> 
+                       Producten
+                    </a> 
+                </li> 
+                <li class="nav-item" class="menu-item"> 
+                    <a class="nav-link"
+                       href="/sites/nieuws.html"> 
+                      Nieuws 
+                    </a> 
+                </li> 
+                <li class="nav-item" class="menu-item"> 
+                    <a class="nav-link"
+                       href="/sites/overOns.html"> 
+                      Over ons 
+                    </a> 
+                </li> 
+                <li class="nav-item" class="menu-item"> 
+                    <a class="nav-link"
+                       href="/sites/contact.html"> 
+                      Contact
+                    </a> 
+                </li> 
+
+                <!-- winkelwagen toevoegen -->
+                <li class="nav-default">
+                    <a class="nav-default pr-2"><i class="fas fa-shopping-cart fa-3x"></i></a>
+                </li>
+              </ul>
+            </div><!--einde menu items-->
+          </nav><!--einde menu balk-->
+
+          <h1 id="titel_producten">Producten</h1>
+          
+            <div class="filter col-6 col-xs-6 col-md-3 col-lg-3 col-xl-3">
+              <div class="affix">
+                <h1 id="titel_filter">Filter</h1>
+                <div class="checkbox_filter">
+                  <label><input type="checkbox" rel="zoet" onchange="change()"/>Zoet</label>
+                </div>
+                <div class="checkbox_filter">
+                  <label><input type="checkbox" rel="zout" onchange="change()"/>Zout</label>
+                </div>
+                <div class="checkbox_filter">
+                  <label><input type="checkbox" rel="zuur" onchange="change()"/>Zuur</label>
+                </div>
+                <div class="checkbox_filter">
+                    <label><input type="checkbox" rel="nieuw" onchange="change()"/>Nieuw</label>
+                </div>
+                </div><!--affix-->
+              </div>
+              
+             <div class="col-6 col-xs-6 col-md-12 col-lg-12 col-xl-12">
+                <section class="section_product result">
+                  <!-- Blok 1 -->
+                  <div class="product zoet">
+                      <h3>Haribo hartjes</h3>
+                      <img src="../pictures/producten/haribo_hartjes_snoep_3.jpg" class="drop-nieuws">
+
+                      <p class="product_oms">
+                        <table>
+                          <tr>
+                            <td>
+                              Haribo
+                            </td>
+                          </tr>
+                        </table>
+                      </p>
+                      <div class="prijs">
+                        <span>
+                          &euro;1,95,-
+                        </span>
+                        <div id="karretje">
+                          <a>
+                            <i class="fas fa-shopping-cart fa-1x" id="karretje2"></i>
+                          </a>
+                        </div>
+                      </div><!--.prijs-->
+                  </div>
+                  <!-- Blok 2 -->
+                  <div class="product zoet">
+                      <h3>Salmiak drop repen</h3>
+                      <img src="../pictures/producten/matthijs-salmiak-drop-zoute-repen.jpg" class="drop-nieuws">
+
+                      <p class="product_oms">
+                        <table>
+                          <tr>
+                            <td>
+                              Salmiak droep zoete repen
+                            </td>
+                          </tr>
+                        </table>
+                      </p>
+                      <div class="prijs">
+                        <span>
+                          &euro;1,95,-
+                        </span>
+                        <div id="karretje">
+                          <a>
+                            <i class="fas fa-shopping-cart fa-1x" id="karretje2"></i>
+                          </a>
+                        </div>
+                      </div><!--.prijs-->
+                  </div>
+                  <!-- Blok 3 -->
+                  <div class="product nieuw">
+                      <h3>drop</h3>
+                      <img src="../pictures/producten/drop.jpg" class="drop-nieuws">
+
+                  <p class="product_oms">
+                    <table>
+                      <tr>
+                        <td>
+                          Venco zoete drop
+                        </td>
+                      </tr>
+                    </table>
+                  </p>
+                  <div class="prijs">
+                    <span>
+                      &euro;1,95,-
+                    </span>
+                    <div id="karretje">
+                      <a>
+                        <i class="fas fa-shopping-cart fa-1x" id="karretje2"></i>
+                      </a>
+                    </div>
+                  </div><!--.prijs-->
+                  </div>
+                  <!-- Blok 4 -->
+                  <div class="product zuur">
+                    <h3>Zure matten</h3>
+                    <img src="../pictures/producten/Zuremattjes.jpg" class="drop-nieuws">
+                    <p class="product_oms">
+                      <table>
+                        <tr>
+                          <td>
+                            Katja zure matten
+                          </td>
+                        </tr>
+                      </table>
+                    </p>
+                    <div class="prijs">
+                      <span>
+                        &euro;1,95,-
+                      </span>
+                      <div id="karretje">
+                        <a>
+                          <i class="fas fa-shopping-cart fa-1x" id="karretje2"></i>
+                        </a>
+                      </div>
+                    </div><!--.prijs-->
+                  </div>
+                </section>
+                <section class="section_product_2 result">
+                <!-- Blok 5 -->
+                <div class="product zout">
+                    <h3>Zoute rijen</h3>
+                    <img src="../pictures/producten/Haribo-Zoute-rijen-200gr.png" class="drop-nieuws">
+
+                    <p class="product_oms">
+                      <table>
+                        <tr>
+                          <td>
+                            Haribo zoute rijen
+                          </td>
+                        </tr>
+                      </table>
+                    </p>
+                    <div class="prijs">
+                      <span>
+                        &euro;1,95,-
+                      </span>
+                      <div id="karretje">
+                        <a>
+                          <i class="fas fa-shopping-cart fa-1x" id="karretje2"></i>
+                        </a>
+                      </div>
+                    </div><!--.prijs-->
+                </div>
+                <!-- Blok 6 -->
+                <div class="product zuur">
+                    <h3>Zure tongen</h3>
+                    <img src="../pictures/producten/ZureTongen.jpg" class="drop-nieuws">
+
+                    <p class="product_oms">
+                      <table>
+                        <tr>
+                          <td>
+                            Naam van merk + product
+                          </td>
+                        </tr>
+                      </table>
+                    </p>
+                    <div class="prijs">
+                      <span>
+                        &euro;1,95,-
+                      </span>
+                      <div id="karretje">
+                        <a>
+                          <i class="fas fa-shopping-cart fa-1x" id="karretje2"></i>
+                        </a>
+                      </div>
+                    </div><!--.prijs-->
+                </div>
+                <!-- Blok 7 -->
+                <div class="product zoet">
+                    <h3>Schuimblokken</h3>
+                    <img src="../pictures/producten/haribo-schuimblokken-bestellen.png" class="drop-nieuws">
+
+                    <p class="product_oms">
+                      <table>
+                        <tr>
+                          <td>
+                           Haribo schuimblokken
+                          </td>
+                        </tr>
+                      </table>
+                    </p>
+                    <div class="prijs">
+                      <span>
+                        &euro;1,95,-
+                      </span>
+                      <div id="karretje">
+                        <a>
+                          <i class="fas fa-shopping-cart fa-1x" id="karretje2"></i>
+                        </a>
+                      </div>
+                    </div><!--.prijs-->
+                </div>
+                <!-- Blok 8 -->
+                  <div class="product nieuw">
+                    <h3>Venco drop</h3>
+                    <img src="../pictures/producten/drop.jpg" class="drop-nieuws">
+
+                    <p class="product_oms">
+                      <table>
+                        <tr>
+                          <td>
+                            Venco zoete drop
+                          </td>
+                        </tr>
+                      </table>
+                    </p>
+                    <div class="prijs">
+                      <span>
+                        &euro;1,95,-
+                      </span>
+                      <div id="karretje">
+                        <a>
+                          <i class="fas fa-shopping-cart fa-1x" id="karretje2"></i>
+                        </a>
+                      </div>
+                    </div><!--.prijs-->
+                  </div>
+            </section>
+          </section>
+        </div><!--col-->
+
+      
+
+      <!--De footer met copyright-->
+      <footer class="footer">
+        <div class="col-12 col-md-12 col-lg-12 col-xl-12">
+            Bubble Candy &copy; 2021, Alle rechten voorbehouden. Privacybeleid | Discaimer
+        </div>
+      </footer>
+    </body>
+</html>
