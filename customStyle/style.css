@@ -128,12 +128,20 @@ footer{
 
 span{
     font-size: 14px;
+    text-align: left;
+    left: 20px;
 }
 
 #karretje{
-    display: block;
+    position: relative;
     float: right;
+    align-content: right;
 }
+
+#karretje2{
+    padding-right: 50px;
+}
+
 
 /*------------------------------------ INDEX PAGE  ----------------------------------*/
 
@@ -161,9 +169,9 @@ span{
     position: fixed;
     left: 20px;
     border: #FFFFC2 5px solid;
-    width: 250px;
+    width: 165px;
     height: 390px;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 #titel_filter{
@@ -183,22 +191,13 @@ span{
     cursor: pointer;
     height: 20px;
     width: 20px;
-    margin-right: 35px;
+    margin-right: 25px;
 }
 
 .checkbox_filter:checked input{
     background-color: black;
 }
 
-/* alle p-elementen (Nieuwspagina) */
-.product_oms{
-    position: relative;
-    height: 40%;
-    width: 100%;
-    text-align: center;
-    overflow-y: scroll;
-    font-size: 17px;
-}
 
 /* width (ProductenPagina)*/
 .product_oms::-webkit-scrollbar {
