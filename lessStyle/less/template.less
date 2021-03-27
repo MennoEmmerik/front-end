@@ -1,0 +1,85 @@
+/*------------------------- TEMPLATE FOR AL PAGES ----------------------------------*/
+
+// Achtergrond kleur op alle pagina's
+@background-color: #C8E7ED;
+@colorBlack: black;
+@colorYellowish: #FFFFC2;
+@colorRedish: #FFA6A6;
+@colorGrey: grey;
+
+body{
+    background-color: @background-color;
+}
+
+/* ruimte voor menu bar  */
+.navbar-brand{
+    padding: 0px;
+}
+
+.nav-item{
+    border: 1px solid @colorBlack;
+    background-color: @colorYellowish;
+    border-radius: 10px;
+}
+
+.nav-item > a{
+    color: @colorRedish;
+}
+
+.nav-item:hover{
+    background-color: @colorRedish;
+    color: @background-color;
+}
+
+a:hover{
+    color: @background-color;
+}
+
+/* hamburger menu icon stylen */
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,166,166, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* winkel kar */
+.fa-shopping-cart{
+    padding-right: 150px;
+    color: @colorBlack
+    ;
+}
+
+/*einde menu */
+
+/* Custom scroll balk */
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px @colorGrey; 
+    border-radius: 10px;
+}
+   
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background:@colorRedish; 
+    border-radius: 10px;
+}
+  
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: @colorYellowish;
+}
+
+/* Custom scroll balk */
+
+/* Footer */
+footer{
+    background-color: @colorYellowish;
+    color: @colorRedish;
+    position: fixed;
+    bottom: 0px;
+    right: 0.2px;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/*------------------------- TEMPLATE FOR AL PAGES ----------------------------------*/
