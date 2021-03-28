@@ -85,7 +85,6 @@ footer{
 
 
 /*------------------------------------ INDEX PAGE  ----------------------------------*/
-
 .banner{
     background-image: url("../pictures/banners/snoepBanner_index.jpg");
     background-repeat: no-repeat;
@@ -221,6 +220,20 @@ span{
 .product_oms::-webkit-scrollbar-thumb:hover {
     background: #FFA5A5; 
 }
+@media only screen and (max-width: 767px) {
+    .filter{
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: #FFFFC2 5px solid;
+        width: 265px;
+        height: 390px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+    
+  }
 
 
 /*------------------------------------ PRODUCTEN PAGE  ----------------------------------*/
