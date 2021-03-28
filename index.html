@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head>
+      <head>
         <title>
             Bubble Candy
         </title>
@@ -9,19 +9,21 @@
 
         <!-- logo in title -->
         <link rel = "shortcut icon" href ="pictures/logo/bubblecandy_logo_transparent.png" type = "image/x-icon"> 
-        
+         
         <!-- inladen scripts -->
-        <script src="Bootstrap/js/bootstrap.min.js"></script>
-        <script src="Bootstrap/js/bootstrap.js"></script>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
         <!-- inladen style -->
-        <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="customStyle/style.css">
+        <link rel="stylesheet" href="../lessStyle/css/template.css">
 
         <!-- Dit wordt gebruikt voor de icons, roep mij als je een icon wilt gebruiken dan leg ik uit hoe het moet-->
         <script src="https://kit.fontawesome.com/15f422bf60.js" crossorigin="anonymous"></script>
-    </head>
+        
+      </head>
 
     <body>
       <!-- begin menu -->
@@ -29,12 +31,12 @@
         <a class="navbar-brand" href="#">
           <img src="pictures/logo/bubblecandy_logo_transparent.png" height="200px" class="img-responsive">
         </a>
-        <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#myNav" aria-controls="#myNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler collapsed ml-auto custom-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-controls="navbar-collapse">
            <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="myNav">
-          <ul class="navbar-nav justify-content-between w-100">
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav justify-content-between w-100">
             <li class="nav-item active">
               <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
             </li>
@@ -80,7 +82,7 @@
             <div class="container-fluid">
               <div class="container">
                 <div class="row">
-                  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                  <div class="col-12 col-sm-12 col-md-12">
                     <div class="banner">
                       <!-- leeg -->
                     </div>
@@ -129,7 +131,7 @@
                         </a>
                       </div>
                     </div><!--.prijs-->
-                </div>
+                </div><!--einde blok 1-->
                 <!-- Blok 2 -->
                 <div class="product_index" id="div2">
                   <h3>Naam merk</h3>
@@ -153,7 +155,7 @@
                         </a>
                       </div>
                     </div><!--.prijs-->
-                </div>
+                </div> <!-- Blok 2 -->
                 <!-- Blok 3 -->
                 <div class="product_index" id="div3">
                   <h3>Naam merk</h3>
@@ -177,7 +179,7 @@
                         </a>
                       </div>
                     </div><!--.prijs-->
-                </div>
+                </div> <!-- Blok 3 -->
                 <!-- Blok 4 -->
                 <div class="product_index" id="div4">
                   <h3>Naam merk</h3>
@@ -201,7 +203,7 @@
                         </a>
                       </div>
                     </div><!--.prijs-->
-                </div>
+                </div> <!-- Blok 4 -->
             </section>
           </div><!--row-->
         </div><!--container-->
@@ -298,6 +300,53 @@
         </div><!--container-->
       </div><!--container-fluid-->
 
+      <!-- 
+        DIT IS EEN CAROUSEL, MAAR WERKT NOG NIET ECHT DUS NOG NIET GEBRUIKT
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container-fluid">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div>
+                      <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                      </ol>
+                      <div class="carousel-inner">
+                          <div class="carousel-item active">
+                              <img class="d-block w-100" src="https://placeimg.com/1080/500/animals" alt="First slide">
+                              <div class="carousel-caption d-none d-md-block">
+                                  <h5>My Caption Title (1st Image)</h5>
+                                  <p>The whole caption will only show up if the screen is at least medium size.</p>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <img class="d-block w-100" src="https://placeimg.com/1080/500/arch" alt="Second slide">
+                          </div>
+                          <div class="carousel-item">
+                              <img class="d-block w-100" src="https://placeimg.com/1080/500/nature" alt="Third slide">
+                          </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      
 
 
       <!--De footer met copyright-->

@@ -5,12 +5,12 @@ GEEN ENKELE MARGIN TOEVOEGEN AAN ELEMENTEN DIT KOMT OMDAT BOOTSTRAP HIER GEBRUIK
 */
 
 /*------------------------- STYLING FOR AL PAGES ----------------------------------*/
-
+/*
 body{
     background-color: #C8E7ED;
 }
 
-/* ruimte voor menu bar  */
+/* ruimte voor menu bar  
 .navbar-brand{
     padding: 0px;
 }
@@ -34,12 +34,12 @@ a:hover{
     color: #C8E7ED;
 }
 
-/* hamburger menu icon stylen */
+/* hamburger menu icon stylen 
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,166,166, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-/* winkel kar */
+/* winkel kar 
 .fa-shopping-cart{
     padding-right: 150px;
     color: black;
@@ -47,27 +47,27 @@ a:hover{
 
 /*einde menu */
 
-/* Custom scroll balk */
+/* Custom scroll balk 
 
 body::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px grey; 
     border-radius: 10px;
 }
    
-/* Handle */
+/* Handle 
 body::-webkit-scrollbar-thumb {
     background:#FFA5A5; 
     border-radius: 10px;
 }
   
-/* Handle on hover */
+/* Handle on hover 
 body::-webkit-scrollbar-thumb:hover {
     background: #FFFFC2;
 }
 
-/* Custom scroll balk */
+/* Custom scroll balk 
 
-/* Footer */
+/* Footer 
 footer{
     background-color: #FFFFC2;
     color: #FFA6A6;
@@ -78,13 +78,13 @@ footer{
     width: 100%;
     border-radius: 10px;
 }
+/*
 
 
 /*------------------------- STYLING FOR AL PAGES ----------------------------------*/
 
 
 /*------------------------------------ INDEX PAGE  ----------------------------------*/
-
 .banner{
     background-image: url("../pictures/banners/snoepBanner_index.jpg");
     background-repeat: no-repeat;
@@ -220,6 +220,20 @@ span{
 .product_oms::-webkit-scrollbar-thumb:hover {
     background: #FFA5A5; 
 }
+@media only screen and (max-width: 767px) {
+    .filter{
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: #FFFFC2 5px solid;
+        width: 265px;
+        height: 390px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+    
+  }
 
 
 /*------------------------------------ PRODUCTEN PAGE  ----------------------------------*/
